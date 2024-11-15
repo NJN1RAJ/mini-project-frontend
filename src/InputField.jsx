@@ -6,7 +6,7 @@ function InputField({ name, value, unit }) {
       <div className="">{name}: </div>
       <input
         type="text"
-        className="text-center p-2 rounded w-20"
+        className="text-center p-2 rounded w-20 text-lg"
         value={value}
       />
       <div className="">{unit}</div>
